@@ -61,7 +61,7 @@ body{
     align-items: center;
 }
 
-.rating-buttons button{
+.value-button{
     height: 40px;
     width: 40px;
     border: none;
@@ -70,12 +70,12 @@ body{
     background-color: hsl(218, 22%, 21%);
 }
 
-.rating-buttons button:hover{
+.value-button:hover{
     background: hsl(25, 97%, 53%);
     color: hsl(0, 0%, 100%);
 }
 
-.rating-buttons button.active{  /*button with class active*/
+.value-button.active{  /*button with class active*/
     background: hsl(217, 12%, 63%);
     color: hsl(0, 0%, 100%);
 }
