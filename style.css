@@ -73,6 +73,7 @@ body{
 .value-button:hover{
     background: hsl(25, 97%, 53%);
     color: hsl(0, 0%, 100%);
+    cursor: pointer;
 }
 
 .value-button.active{  /*button with class active*/
@@ -96,6 +97,7 @@ body{
 .submit-button:hover{
     color: hsl(25, 97%, 53%);
     background: hsl(0, 0%, 100%);
+    cursor: pointer;
 }
 /*          end of rating card design*/
 
